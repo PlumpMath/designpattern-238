@@ -1,8 +1,8 @@
 package design.stragety;
 
 /**
- *  Name: SaleTradeStragety.java
- * Description :  銷售拋帳
+ *  Name: ReturnTradeStragety.java
+ * Description :  退貨拋帳
  * Created by bryant on 2017/1/14.
  */
 public class ReturnTradeStragety implements  TradeStragety{

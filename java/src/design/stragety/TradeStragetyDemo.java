@@ -15,7 +15,6 @@ public class TradeStragetyDemo {
          this.tradeStragety.doTrade();
     }
 
-
     public static void main(String[] args){
         TradeStragetyDemo saleDemo = new  TradeStragetyDemo(new SaleTradeStragety());
         saleDemo.doTrade();
