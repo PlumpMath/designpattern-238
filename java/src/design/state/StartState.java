@@ -5,6 +5,7 @@ package design.state;
  * description:  打開機器狀態
  * Created by bryant on 2017/1/12
  */
+
 public class StartState implements  Machine {
     @Override
     public void operate(State state) {

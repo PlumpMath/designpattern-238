@@ -12,6 +12,4 @@ public class State {
     public  void setState(SystemState systemState){
         this.systemState =  systemState;
     }
-
-
 }
