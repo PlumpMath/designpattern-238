@@ -8,9 +8,16 @@ package design.state;
 public class MachineDemo {
 
     public  static  void main(String[] args){
+        System.out.println("工人七點上班，打開機器!");
         State state = new State();
         Machine startMachine = new StartState();
         startMachine.operate(state);
+        System.out.println("中午休息!");
+        Machine suspendMachine = new SuspendState();
+        suspendMachine.operate(state);
+        System.out.println("下班了!");
+        Machine stopMachine = new StopState();
+        stopMachine.operate(state);
 
     }
 
